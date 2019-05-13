@@ -136,7 +136,10 @@ a=1;
 
 
 
-"""for sundirs in os.listdir(dir):
+"""
+
+
+for sundirs in os.listdir(dir):
     if '.' in sundirs:
         worksheet.write(k, 1, sundirs)
         k =k+1;
@@ -146,7 +149,6 @@ a=1;
             subdirs
 
 
-    print(k)
     k = k + 1;
     print(dirs)
     #for sunfile in dirs:
